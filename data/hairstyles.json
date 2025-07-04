@@ -1,0 +1,248 @@
+[
+    {
+        "era": "Pre-1400s",
+        "styles": [
+          {
+            "name": "Braided Wigs (Ancient Egypt)",
+            "description": "Egyptians, including royalty and high officials, often wore braided wigs made from human hair or plant fibers. These elaborate styles featured rows of tiny braids, beads, and sometimes gold accessories, reflecting wealth and status.",
+            "image": "images/pre-1400s-braided-wigs.jpg",
+            "continent": "Africa"
+          },
+          {
+            "name": "Afro Coils (Nubia/Kush)",
+            "description": "People from the ancient Nubian kingdoms (modern-day Sudan) often styled their tightly coiled hair into rounded afros or twisted formations, symbolising power, purity, and spiritual strength. These styles were sometimes adorned with cowrie shells and beads.",
+            "image": "images/pre-1400s-coils.jpg",
+            "continent": "Africa"
+          },
+          {
+            "name": "Locs (Biblical Times/Ethiopia)",
+            "description": "Locs, known as ‘Nazirite locks’ in ancient Semitic cultures, were worn as a spiritual vow. In places like Ethiopia, dreadlock-like styles were not just practical but sacred, often seen among priests and warriors.",
+            "image": "images/pre-1400s-locs.jpg",
+            "continent": "Africa"
+          }
+        ]
+    },
+    {
+        "era": "1400s–1600s",
+        "styles": [
+            {
+                "name": "Cornrows & Plaits",
+                "description": "Cornrows are intricate braids woven closely to the scalp in straight or curved patterns. During slavery, enslaved Africans used cornrows as a way to map escape routes or hide seeds and grains for survival. The style has deep roots in African culture, symbolising tribal identity, social status, and resistance.",
+                "image": "images/1400-1600-conrows-plaits.jpg",
+                "continent": "Africa" 
+            },
+            {
+                "name": "Locs & Twists",
+                "description": "Locs (dreadlocks) and two-strand twists are protective hairstyles that have been worn for centuries in African cultures. Locs form when hair naturally mats and intertwines, representing spirituality, strength, and social hierarchy in different tribes. Two-strand twists involve twisting two sections of hair together, offering a versatile and low-maintenance style often used as a step toward loc formation.",
+                "image": "images/1400-1600s-locs-twists.jpg",
+                "continent": "Africa"
+            }
+        ]
+    },
+    {
+        "era": "1600s–1700s",
+        "styles": [
+            {
+                "name": "Shaved Heads",
+                "description": "Enslaved Africans were often forced to shave their heads upon arrival in the Americas as a means of stripping them of their cultural identity. In many African societies, hairstyles held deep significance, representing tribal affiliation, social status, and spirituality. The act of shaving heads symbolised a forced separation from their heritage and was also done for sanitation purposes in inhumane conditions.",
+                "image": "images/1600-1700-shaven-head.jpg",
+                "continent": "Europe"
+            }
+        ]
+    },
+    {
+        "era": "1800s",
+        "styles": [
+            {
+                "name": "Good Hair, Bad Hair",
+                "description": "During the 1800s, Eurocentric beauty standards became deeply ingrained in society, leading to the perception that straight hair was “good hair,” while tightly coiled or kinky textures were deemed “bad hair.” Enslaved and freed Black individuals often used harsh chemicals, heated combs, or lye-based treatments to straighten their hair in an attempt to assimilate and gain social acceptance. This period marked the beginning of a long-standing struggle with hair discrimination, which still influences modern beauty standards.",
+                "image": "images/1800s-good-hair-bad-hair.jpg",
+                "continent": "America & Europe"
+            }
+        ]
+    },
+    {
+        "era": "1900s",
+        "styles": [
+            {
+                "name": "The Gibson Girl",
+                "description": "The Gibson Girl hairstyle, inspired by illustrator Charles Dana Gibson’s drawings, became the idealised beauty standard for women in the early 1900s. Black women who could afford pressing combs and early relaxers styled their hair into pompadours and soft waves to mimic this fashionable look. The style required frequent straightening, symbolising an attempt to align with Eurocentric beauty standards while still maintaining a unique elegance.",
+                "image": "images/1900s-the-gibson-girl.jpg",
+                "continent": "America & Europe"
+            },
+            {
+                "name": "Sleek Tresses",
+                "description": "As access to hair straightening tools expanded, many Black women began wearing their hair in sleek, smooth styles close to the head, often parted in the center or on the side. The first documented permanent wave, or “perm,” was introduced in the early 1900s, offering a longer-lasting straightened look. These styles were influenced by societal pressures to conform to European beauty ideals, but they also reflected Black women’s ingenuity in hairstyling techniques.",
+                "image": "images/1900s-first-perm.jpg",
+                "continent": "America"
+            }
+        ]
+    },
+    {
+        "era": "1920s–1930s",
+        "styles": [
+            {
+                "name": "Finger Waves",
+                "description": "Finger waves became a signature look of the Jazz Age, popularised by flapper culture. The style involved molding damp hair into sculpted waves close to the scalp using fingers and a comb. Black women embraced this sleek and glamorous look, often pairing it with short, flapper-inspired cuts. It was a way to express elegance and modernity during a time of social change.",
+                "image": "images/1920s-1930-finger-waves.png",
+                "continent": "America"
+            },
+            {
+                "name": "Wavy bobs",
+                "description": "The wavy bob was a fashionable alternative to finger waves, featuring tight curls achieved by pinning sections of damp hair into spirals, then allowing them to set. This style was worn short, just above or below the chin, creating a playful yet sophisticated look. It was a go-to hairstyle for Black women seeking a polished, vintage aesthetic.",
+                "image": "images/1920-1930-wavy-bobs.png",
+                "continent": "America"
+            }
+        ]
+    },
+    {
+        "era": "1940s–1950s",
+        "styles": [
+            {
+                "name": "Victory Rolls",
+                "description": "Victory rolls emerged during World War II as a symbol of patriotism and resilience. The hairstyle featured large, voluminous curls rolled inward or outward, framing the face. It was a glamorous yet practical look that allowed women to maintain a stylish appearance while contributing to the war effort in factories and military roles. Black women adapted the style using their natural textures, often incorporating hot combs and setting techniques to achieve smooth, structured rolls.",
+                "image": "images/1940-1950-Victory-Rolls.jpg",
+                "continent": "America"
+            },
+            {
+                "name": "Pin Curls",
+                "description": "Pin curls were a popular method of setting hair into defined, long-lasting curls. Hair was wrapped into small spirals and secured with bobby pins, then either air-dried or set under a hooded dryer. This elegant look was versatile, often styled into updos or soft waves. The style was widely embraced by Black women seeking a sophisticated and feminine appearance.",
+                "image": "images/1940-1950-pin-curls.jpeg",
+                "continent": "America"
+            }
+        ]
+    },
+    {
+        "era": "1960s–1970s",
+        "styles": [
+            {
+                "name": "Afros",
+                "description": "The Afro became one of the most iconic hairstyles of the Civil Rights era, representing Black pride, self-expression, and resistance against Eurocentric beauty standards. Worn in a naturally rounded shape, the style emphasised the beauty of tightly coiled hair. Figures like Angela Davis and the Black Panther Party popularised the look, making it a powerful symbol of the Black Power movement. The Afro was not just a fashion statement but a declaration of cultural identity and self-love.",
+                "image": "images/1960-1970s-afro.png",
+                "continent": "America & Africa"
+            },
+            {
+                "name": "Blowout / Rounded Pressed Styles",
+                "description": "Some Black women wore their natural hair in blown-out or rounded styles using picks or heat, resulting in large, soft-volume hair. This style offered a versatile mix between natural texture and a controlled, styled look — popular among soul and Motown performers.",
+                "image": "images/1960-1970s-blowout.jpg",
+                "continent": "America"
+            },
+            {
+                "name": "Braids with Beads",
+                "description": "Individual braids adorned with colorful beads became iconic in the 1970s. Popularised by performers like Francine 'Peaches' Barker of Peaches & Herb, the style celebrated African heritage and offered a playful, expressive twist on traditional plaits. It was especially popular among young Black girls and women in the diaspora.",
+                "image": "images/1960-1970s-braid-beads.jpg",
+                "continent": "Africa"
+              }
+        ]
+    },
+    {
+        "era": "1980s",
+        "styles": [
+            {
+                "name": "Jheri Curls",
+                "description": "The Jheri curl was a glossy, loosely curled style that became widely popular in the 1980s. Achieved through a chemical process that softened tight coils, it required frequent application of curl activator to maintain its signature wet and shiny look. Celebrities like Michael Jackson and Lionel Richie helped cement the Jheri curl as a defining hairstyle of the decade. However, it required high maintenance and was eventually replaced by more natural and low-maintenance styles.",
+                "image": "images/1980-jheri-curls.jpg",
+                "continent": "America"
+            },
+            {
+                "name": "Hi-Top Fade",
+                "description": "The Hi-Top Fade, also known as the “Flat Top,” featured short hair on the sides and a tall, structured top that could be shaped into a boxy or rounded silhouette. This sharp, geometric style was embraced by hip-hop culture and became synonymous with the golden age of rap. Artists like Big Daddy Kane and Kid ’n Play helped popularise the look, making it a signature style of 1980s Black youth.",
+                "image": "images/1980-Hi-top-fade.png",
+                "continent": "America"
+            }
+        ]
+    },
+    {
+        "era": "1990s",
+        "styles": [
+            {
+                "name": "Box Braids",
+                "description": "A protective hairstyle featuring individual, three-strand plaits that can be worn in various lengths and thicknesses. Box braids gained widespread popularity in the ‘90s, especially after Janet Jackson’s role in Poetic Justice. The style is versatile, low-maintenance, and deeply rooted in African hair traditions.",
+                "image": "images/1990s-box-braids.jpg",
+                "continent": "Global"
+            },
+            {
+                "name": "Pixie Cuts",
+                "description": "The Pixie Cut became a bold and chic hairstyle in the ‘90s, with short, close-cropped layers styled for a sleek, effortless look. Celebrities like Halle Berry helped popularise the trend, showing how short hair could be both feminine and edgy.",
+                "image": "images/1990s-pixie-cut.jpg",
+                "continent": "Global"
+            },
+            {
+                "name": "Swooped Bangs",
+                "description": "A signature ‘90s hairstyle featuring voluminous bangs that were heavily gelled and swooped dramatically to one side. Often paired with high ponytails or relaxed styles, swooped bangs added a stylish, glamorous flair. Artists like Aaliyah and TLC helped cement this trend.",
+                "image": "images/1990s-swooped-bangs.jpeg",
+                "continent": "Global"
+            }
+            
+        ]
+    },
+    {
+        "era": "2000s",
+        "styles": [
+            {
+                "name": "Half-Up, Half-Down Updo",
+                "description": "A trendy and playful style where the top half of the hair is pulled into a ponytail or bun while the rest flows down freely. This versatile look was often worn with curls or waves and became popular in the early 2000s thanks to R&B stars and hip-hop culture.",
+                "image": "images/2000s-Half-Up-Half-Down-Updo.jpg",
+                "continent": "America & Europe"
+            },
+            {
+                "name": "Micro Braids",
+                "description": "Extremely thin and delicate braids that offer a sleek, intricate look. Micro braids were a staple of the 2000s, often worn long and styled into ponytails or buns. Though stylish, they require a lot of time to install and can put stress on the hair if not properly maintained.",
+                "image": "images/2000s-Micro-Braids.jpg",
+                "continent": "America & Europe"
+            },
+            {
+                "name": "Half-Braided Hairstyle",
+                "description": "A mix of braiding and loose hair, where the top or sides are braided while the rest remains straight or curly. This fusion style became popular in the early 2000s, blending traditional braiding techniques with modern, free-flowing styles.",
+                "image": "images/2000s-Half-Braided.jpg",
+                "continent": "America, Europe & Africa"
+            }
+            
+        ]
+    },
+    {
+        "era": "2010s",
+        "styles": [
+            {
+                "name": "Two Toned Hair Colour",
+                "description": "The 2010s saw a rise in bold, expressive hair colors, including ombré and two-toned styles. Many Black women experimented with vibrant hues, from honey blondes to deep reds, using dye or wigs. This trend was a form of self-expression, breaking away from traditional hair norms.",
+                "image": "images/2010s-Two-Toned-Hair-Colour.jpg",
+                "continent": "America, Europe & Africa"
+            },
+            {
+                "name": "Shaved Side Haircuts ",
+                "description": "A bold and edgy look featuring one or both sides of the head shaved while leaving the top or other sections longer. This style became popular among artists and trendsetters, often combined with braids, curls, or sleek straight hair for contrast. Celebrities like Rihanna and Cassie helped make this look iconic.",
+                "image": "images/2010-shaven-side-haircut.jpg",
+                "continent": "America & Europe"
+            },
+            {
+                "name": "Wash and Go",
+                "description": "A natural hairstyle where curls are defined using water, leave-in conditioner, and styling gels, allowing them to air-dry or diffuse. This low-maintenance style gained popularity as part of the natural hair movement, celebrating the beauty of unaltered curls and coils.",
+                "image": "images/2010-wash-and-go.png",
+                "continent": "Global"
+            }
+        ]
+    },
+    {
+        "era": "2020s–Present",
+        "styles": [
+            {
+                "name": "Closure & Frontal Wigs & Sew-ins",
+                "description": "Wigs and sew-in extensions with lace closures or frontals provide a natural-looking hairline and allow for versatile styling without damaging natural hair. These styles became increasingly popular due to their protective benefits and ability to mimic natural hair textures while offering a flawless look.",
+                "image": "images/2020-Closure-frontal-wigs-sew-ins.jpg",
+                "continent": "Global"
+            },
+            {
+                "name": "Locs & Faux Locs",
+                "description": "Traditional locs remain a symbol of cultural heritage and self-expression, while faux locs offer a temporary alternative for those who want the look without long-term commitment. Both styles have become mainstream, worn in various sizes and lengths, and are often accessorised with beads, cuffs, or wraps.",
+                "image": "images/2020-locs-faux-locs.jpg",
+                "continent": "Global"
+            },{
+                "name": "Knotless Braids & Twists",
+                "description": "An evolution of traditional box braids, knotless braids provide a more natural look and reduce tension on the scalp by starting with a person’s natural hair before adding extensions. Twists, whether passion twists, Senegalese, or spring twists, have also surged in popularity, offering lightweight, stylish, and protective options.",
+                "image": "images/2020-knotless-braids.jpg",
+                "continent": "Global"
+            }
+        ]
+    }
+]

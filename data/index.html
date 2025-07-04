@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Document Setup (Meta Information)--> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Celebrating Black History Month at the Barnet Group">
+    <meta name="keywords" content="HTML, CSS, JS Website">
+    <meta name="author" content="Damilola Babajide">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Page Title--> 
+    <title>Celebrating Black History Month at The Barnet Group</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/Crowned_History_Icon.png" alt="Crown Icon">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/facts.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/hair-inspiration.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--Fonts (ImperiaA and Avenir Fonts)-->
+    <link href="https://db.onlinewebfonts.com/c/1557bd6e47c2334b044467253e1356de?family=ImperiaA+W01+Regular" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/275de2221d9f0c4c9257d17f5a1e4006?family=Avenir+Black" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/2148ed90570c0dd002f4e905de92dc46?family=AvenirLTPro-Roman" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy" rel="stylesheet">
+
+    
+    <!--Javascript--> 
+    <script src="javascript/script.js"></script>
+    <script src="javascript/facts.js"></script>
+    <script src="javascript/timeline.js"></script>
+    <script src="javascript/hair-inspiration.js" defer></script>
+    <!-- Added'defer' to make sure  this script runs after HTML is loaded -->
+</head>
+   
+<body>
+    <!--Navigation (Responsive Navigation with Logo and Menu Items)-->
+    <nav class="nav">
+        <!-- Mobile menu toggle that transforms into an X when clicked -->
+        <div class="hamburger-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!-- Main navigation items with smooth scrolling to page sections -->
+        <ul class="nav-flex">
+            <li><img src="images/CH_Logo_WHI.png" alt="Crowned History Logo White" class="logo"></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#timeline">Black History Timeline</a></li>
+            <li><a href="#hair-inspriation">Hair Inspriation</a></li>
+            <li><button class="nav-button" onclick="window.location.href='#contact'">Contact Us</button></li>
+        </ul>
+    </nav>
+
+    <!--Hero Section - Contains two images for the hero section -->
+    <section class="hero">
+        <div class="hero-images">
+            <img src="images/CH_Banner.jpg" alt="Crowned History 1st Hero" class="hero-img active">
+            <img src="images/CH_Banner_2.jpg" alt="Crowned History 2nd Hero" class="hero-img">
+        </div>
+    </section>
+
+    <!--Banner - Animated text that scrolls horizontally to highlight key information-->
+    <section class="banner">
+        <div class="marquee" role="marquee">
+            <div class="marquee-content">
+                <!-- Duplicated content for continuous scrolling effect -->
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+                <span>Celebrating Black History Month at The Barnet Group<span class="separator">★</span></span>
+            </div>
+            </div>
+    </section>
+
+    <!--About Us Section - Introduces the brand story, mission, and values -->
+    <section id="about" class="about">
+        <div class="container">
+            <h1>Our Story</h1>
+            <p>At Crowned History, we believe that Black hair is more than a style — it’s a timeline, a language, and a legacy.<br>
+
+                <br>Our journey begins in Ancient Egypt, where braids, locs, and shaved heads were symbols of identity, spirituality, and royalty. From there, we trace the story of Black hair through centuries of creativity, resistance, erasure, and pride — all the way to today’s natural hair movement and cultural expression.<br>
+                
+                <br>This platform was born out of a passion to document and celebrate the richness of African hairstyles across history. Through visual storytelling, digital archives, and cultural education, Crowned History connects the strands of the past with the style and spirit of the present.<br>
+                
+                <br>We honour the textures, traditions, and transitions of Black hair — and the people who wear it with power.<br>
+                
+                <br>Because every curl, coil, and crown tells a story.</p><br>
+            <!--Added a stroong tag to emphasise the welcome message-->
+            <p><strong>Welcome to Crowned History.</strong></p>
+        </div>
+    </section>
+    
+    <!-- Timeline Section - Interactive historical overview of Black hairstyles through different eras -->
+    <section id="timeline" class="timeline-section">
+        <h1>Historical Black Hairstyles Timeline</h1>
+        <p><strong> Discover the significance of hairstyles in Black culture and how they have evolved over time.</strong></p>
+        <br>
+        <div class="timeline-container">
+            <!-- Timeline Content Area - Displays detailed information about each historical era -->
+            <div class="timeline-content-wrapper">
+                <div class="timeline-content">
+                    <!-- Content created by json will be loaded here using JavaScript -->
+                    <div class="timeline-loading">Loading timeline data...</div>
+                </div>
+            </div>
+    
+            <!-- Timeline Navigation - Allows users to navigate through different historical eras -->
+            <div class="timeline-navigation">
+                <button class="nav-arrow prev-arrow" aria-label="Previous era">←</button>
+                <div class="timeline-track">
+                    <div class="timeline-line"></div>
+                    <!-- Timeline points will be added here via JavaScript -->
+                </div>
+                <button class="nav-arrow next-arrow" aria-label="Next era">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facts Section Container -->
+    <section id="factSection">
+        <h1>Did You Know..</h1>
+        <div class="fact-container" id="factContainer">
+            <!-- Allows for rotating text with fade transitions-->
+            In ancient Egypt, hair was deeply symbolic. Egyptians would wear wigs to shield their shaved heads from the sun, and different hairstyles indicated a person's social status, age, and religious beliefs.
+        </div>
+    </section>
+
+    <!-- Fun Fact Popup - pop up box added to appear automatically -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h1>Fun Fact of the Day</h1>
+            <p id="fun-fact"></p>
+            <!-- Close button added to close the popup -->
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <!-- Hair Inspiration Section -->
+    <section id="hair-inspriation" class="hair-inspriation">
+        <div class="hair-inspiration-container">
+            <h1>Hair Inspiration</h1>
+            <p><strong>Use the filter to choose a hairstyle from an era or search for a hairstyle in the search box</strong></p>
+            <br>
+    
+            <div class="search-filter-row">
+                <!-- Search Box - Allows users to find specific hairstyles by keyword --->
+                <div class="search-box">
+                    <input type="text" id="hairstyle-search" placeholder="Search hairstyles...">
+                    <button id="search-button">Search</button>
+                </div>
+        
+                <!-- Filter Options - Allows users to filter hairstyles by era -->
+                <div class="filter-box">
+                    <label for="era-filter">Era:</label>
+                    <select id="era-filter">
+                        <option value="all">All Eras</option>
+                        <!-- Options added to filter by era -->
+                    </select>
+                </div>
+            
+            <!-- Results will be displayed here using the JavaScript function -->
+            <div id="hairstyle-result" class="hairstyle-results"></div>
+        </div>
+    </section>
+    
+    <!--Contact Us Section-->
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+                <p><strong> Please don't hesitate to reach out if you have any questions queries!</strong></p>
+            </div>
+            
+            <div class="contact-container">
+                 <!-- Image added to create a visual appeal -->
+                <div class="contact-image-container">
+                    <img src="1800s-good-hair-bad-hair.jpg" alt="1800s Good Hair Bad Hair">
+                </div>
+                
+                <div class="contact-form-container">
+                    <!-- Form added to allow users to submit their contact information -->
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="required">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="required">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="required">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="contact-submit">Send Message</button>
+
+                        <!-- Success and Error Messages -->
+                        <div class="form-success" id="formSuccess">
+                            Thank you for your message! We'll get back to you soon.
+                        </div>
+                        
+                        <div class="form-error" id="formError">
+                            There was an error sending your message. Please try again.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <br>
+
+    <!-- Social Media Section with Icons -->
+    <section id="social-media" class="social-media">
+        <h1>Follow Us</h1>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/crownedhistory" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.x.com/" target="_blank" class="social-icon">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="social-icon">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </section>
+    <br>
+
+    <!-- Scroll to Top Arrow | Source: https://dev.to/jackherizsmith/making-a-back-to-top-button-without-javascript-2ej6 -->
+    <a href="#top" class="scroll-top">↑</a>
+
+    <!-- Footer - has with copyright information -->
+    <footer>
+        <p>Copyright © 2025 Crowned History. All rights reserved.</p>
+    </footer>
+</body>
+</html>

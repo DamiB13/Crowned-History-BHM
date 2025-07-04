@@ -1,0 +1,145 @@
+/* ====== DID YOU KNOW - FACTS SECTION ======= */
+#factSection {
+    font-family: 'SukhumvitSet-Text', sans-serif;
+    padding: 32px;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 32px 0;
+}
+
+/* Head title inside the facts section */
+#factSection h1 {
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.fact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+    color: var(--white);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/* Animation classes */
+/* Fade-in makes the text visible with a smooth transition */
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+/* Fade-out hides the text with a fade effect */
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+/* ====== FUN FACTS POP UP SECTION ======*/
+/* Full-screen popup overlay (hidden by default) */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* When the popup is active, this makes it visible */
+.popup.show {
+    display: flex;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 32px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.popup-content h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.popup-content p {
+    margin: 24px 0;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Button to close the popup */
+.popup-content button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.popup-content button:hover {
+    background-color: var(--background-grey);
+}
+
+/* ====== RESPONSIVE SECTION ===== */
+
+/* Mobile Resolution (0 - 600px) (Base styling for smallest screens) */
+@media screen and (min-width: 0) and (max-width: 600px) {
+    #factSection {
+      padding: 20px 15px;
+    }
+    
+    #factSection h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    
+    .fact-container {
+      font-size: 16px;
+    }
+    
+    .popup-content {
+      width: 90%;
+      padding: 15px;
+    }
+    
+    .popup-content h1 {
+      font-size: 28px;
+    }
+    
+    .popup-content button {
+      padding: 8px 15px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Tablet Resolution (601px - 1023px) (For medium-sized screens) */
+  @media screen and (min-width: 601px) and (max-width: 1023px) {
+    #factSection {
+      padding: 30px 20px;
+    }
+    
+    .fact-container {
+      padding: 20px;
+      max-width: 90%;
+    }
+    
+    .popup-content {
+      width: 70%;
+    }
+  }

@@ -1,0 +1,232 @@
+/* ====== HAIR INSPIRATION SECTION =====*/
+/* This section displays a grid of hairstyle cards with search and filter functionality */
+
+/* Main container that wraps everthing for the hair inspiration section */
+.hair-inspiration-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section heading */
+.hair-inspiration-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ====== SEARCH AND FILTER CONTROLS ======*/
+/* These styles are for the search bar and dropdowns that help users narrow things down  */
+.search-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Search box with input and button */
+.search-box {
+  display: flex;
+  flex: 1;
+  min-width: 250px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid var(--off-white);
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* === Filter Dropdowns === */
+/* Filter dropdowns for era */
+.filter-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-box label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.filter-box select {
+  padding: 10px;
+  border: 1px solid var(--off-white);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: var(--white);
+}
+
+.filter-box p {
+  font-family: 'SukhumvitSet-SemiBold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ====== HAIRSTYLE CARDS GRID ======*/
+/* This creates a responsive grid layout for the hairstyle cards */
+#hairstyle-result {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Individual hairstyle card styling */
+.hairstyle-card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: white;
+}
+
+.hairstyle-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+}
+
+.hairstyle-info {
+  padding: 20px;
+}
+
+.hairstyle-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.hairstyle-era {
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.hairstyle-description {
+  margin: 10px 0;
+  line-height: 1.5;
+  color: var(--black);
+}
+
+.hairstyle-origin {
+  font-style: italic;
+  color: var(--primary-color);
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Error message styling */
+.error {
+  color: #d9534f;
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  padding: 20px;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+/* ====== RESPONSIVE SECTION ===== */
+
+/* Mobile Resolution (0 - 600px) (Base styling for smallest screens) */
+@media screen and (min-width: 0) and (max-width: 600px) {
+  .hair-inspiration-container {
+      padding: 15px;
+  }
+  
+  .search-filter-row {
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .search-box, .filter-box {
+      width: 100%;
+  }
+  
+  /* Smaller font size for inputs */
+  .search-box input, 
+  .search-box button,
+  .filter-box select {
+      font-size: 14px;
+      padding: 8px;
+  }
+  
+  #hairstyle-result {
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
+
+  .hairstyle-card {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  
+  .hairstyle-image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+  }
+
+  .hairstyle-info {
+      padding: 15px;
+  }
+}
+
+/* Tablet Resolution (601px - 1023px) (For medium-sized screens) */
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  /* Typography adjustments */
+  .hairstyle h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+  }
+  
+  .hair-inspiration-container {
+      padding: 20px;
+  }
+  
+  .search-filter-row {
+      flex-wrap: wrap;
+  }
+  
+  .search-box {
+      width: 100%;
+      margin-bottom: 15px;
+  }
+  
+  #hairstyle-result {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .hairstyle-image {
+      width: 100%;
+      aspect-ratio: 1/1; 
+      object-fit: cover;
+  }
+}
